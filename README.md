@@ -48,7 +48,7 @@
 
 1. Заполните файл `.env` на основе `.env.example`
 
-```json
+```
 # App config
 DEBUG=False
 api_key=your_api_key_here
@@ -93,7 +93,7 @@ poetry install
 
 4. Заполните файл `.env` на основе `.env.example`
 
-```json
+```
 # App config
 DEBUG=False
 api_key=your_api_key_here
