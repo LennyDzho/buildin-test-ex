@@ -55,10 +55,6 @@ async def list_incidents(
 
 # ----- UPDATE STATUS -----
 @router.patch(
-    "/{incident_id}/status",
-    response_model=IncidentResponse,
-)
-@router.patch(
     "/status",
     response_model=IncidentResponse,
 )
